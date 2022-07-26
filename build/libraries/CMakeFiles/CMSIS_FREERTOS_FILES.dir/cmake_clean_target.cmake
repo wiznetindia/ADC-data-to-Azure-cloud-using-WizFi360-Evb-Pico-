@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libCMSIS_FREERTOS_FILES.a"
+)

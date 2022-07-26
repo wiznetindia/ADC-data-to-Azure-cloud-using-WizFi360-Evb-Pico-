@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libIOT_SOCKET_FILES.a"
+)

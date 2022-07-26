@@ -1,0 +1,43 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x18): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags:  
+
+The output was:
+1
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x18): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Performing C SOURCE FILE Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS failed with the following output:
+Change Dir: E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_5122a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_5122a.dir\build.make /nologo -L                  CMakeFiles\cmTC_5122a.dir\build
+Building C object CMakeFiles/cmTC_5122a.dir/src.c.obj
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mcpu=cortex-m0plus -mthumb -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles\cmTC_5122a.dir\src.c.obj -c E:\RSP_VSC\WizFi360-EVB-Pico-AZURE-C\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_5122a.elf
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  -Wl,--build-id=none "CMakeFiles\cmTC_5122a.dir\src.c.obj"  -o cmTC_5122a.elf
+c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x18): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+NMAKE : fatal error U1077: 'C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+Stop.
+
+
+Source file was:
+int main(void) { return 0; }

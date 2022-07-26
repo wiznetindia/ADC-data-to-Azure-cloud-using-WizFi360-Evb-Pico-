@@ -1,0 +1,905 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libraries/libAZURE_SDK_FILES.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"libraries/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "DRIVER_WIFI_NUM=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSM_TYPE_SYMM_KEY"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HSM_TYPE_X509"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBEDTLS_CONFIG_FILE=\"E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/port/mbedtls/inc/ssl_config.h\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "SET_TRUSTED_CERT_IN_SAMPLES"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "USE_MQTT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USE_PROV_MODULE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "USE_PROV_MODULE_FULL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/certs"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/c-utility/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/c-utility/deps/azure-macro-utils-c/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/c-utility/deps/umock-c/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/c-utility/pal/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/c-utility/pal/freertos"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/c-utility/pal/generic"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/iothub_client/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/umqtt/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/umqtt/inc/azure_umqtt_c"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/serializer/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/deps/azure-macro-utils-c/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/deps/parson"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/deps/umock-c/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/provisioning_client/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/provisioning_client/adapters"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/libraries/azure-iot-sdk-c/provisioning_client/deps/utpm/inc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "E:/RSP_VSC/WizFi360-EVB-Pico-AZURE-C/port/azure-iot-sdk-c/inc"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80
+			]
+		}
+	],
+	"id" : "AZURE_SDK_FILES::@56099a33689f37a39260",
+	"name" : "AZURE_SDK_FILES",
+	"nameOnDisk" : "libAZURE_SDK_FILES.a",
+	"paths" : 
+	{
+		"build" : "libraries",
+		"source" : "libraries"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/certs/certs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/adapters/httpapi_compact.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/adapters/socketio_mbed.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/pal/tlsio_options.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/azure_base32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/azure_base64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/consolelogger.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/constbuffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/constmap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/crt_abstractions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/doublylinkedlist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/gb_stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/gb_time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/gballoc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/hmac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/hmacsha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/http_proxy_io.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/httpapiex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/httpapiexsas.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/httpheaders.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/map.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/optionhandler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/sastoken.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/sha1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/sha224.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/sha384-512.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/singlylinkedlist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/string_token.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/string_tokenizer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/strings.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/urlencode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/usha.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/vector.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/xio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/c-utility/src/xlogging.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/deps/parson/parson.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_client_authorization.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_client_core_ll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_client_diagnostic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_client_ll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_client_ll_uploadtoblob.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_client_retry_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_device_client_ll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_message.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothub_transport_ll_private.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothubtransport.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothubtransport_mqtt_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothubtransporthttp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/iothubtransportmqtt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/iothub_client/src/version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/agenttypesystem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/codefirst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/commanddecoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/datamarshaller.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/datapublisher.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/dataserializer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/iotdevice.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/jsondecoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/methodreturn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/multitree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/schema.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/schemalib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/serializer/src/schemaserializer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/adapters/hsm_client_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/deps/utpm/src/Marshal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/deps/utpm/src/Memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/deps/utpm/src/tpm_codec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/deps/utpm/src/tpm_comm_emulator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/iothub_auth_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/iothub_security_factory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/prov_auth_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/prov_device_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/prov_device_ll_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/prov_security_factory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/prov_transport_mqtt_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/provisioning_client/src/prov_transport_mqtt_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/umqtt/src/mqtt_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/umqtt/src/mqtt_codec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/azure-iot-sdk-c/umqtt/src/mqtt_message.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

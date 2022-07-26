@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libWIZFI360_FILES.a"
+)
